@@ -17,11 +17,11 @@
         theme: {
           extend: {
             colors: {
-              "page-bg": "#F7F7F7", // Very Light Gray (Main page BG)
+              "page-bg": "#0E2954", // Dark Blue (Used for Header/Footer background)
               "block-a": "#FFFFFF", // White (Lighter Block BG - for Post, Publications)
               "block-b": "#EEEEEE", // Slightly Darker Block BG (for Profile, Projects)
-              "dark-accent": "#181818", // Very Dark Gray (Primary text/accent)
-              "text-muted": "#666666", // Medium Gray (Secondary text)
+              "dark-accent": "#181818", // Very Dark Gray (Primary text/accent for light blocks)
+              "text-muted": "#666666", // Medium Gray (Secondary text for light blocks)
             },
             fontFamily: {
               sans: ["Roboto", "sans-serif"],
@@ -45,8 +45,8 @@
     <style>
       /* Apply background and font settings to the body */
       body {
-        background-color: theme("colors.page-bg"); /* Light background */
-        color: theme("colors.dark-accent"); /* Dark text */
+        background-color: theme("colors.page-bg"); /* Dark Blue background */
+        color: theme("colors.dark-accent"); /* Dark text for the light blocks */
         font-family: "Roboto", sans-serif;
         min-height: 100vh;
         display: block;
@@ -66,10 +66,17 @@
         height: 1px;
         bottom: -2px;
         left: 0;
-        background-color: theme("colors.dark-accent"); /* Use dark accent */
+        /* Using dark accent for links in light blocks, and white for links in dark blocks */
+        background-color: theme("colors.dark-accent");
         transform-origin: bottom right;
         transition: transform 0.3s ease-out;
       }
+
+      /* Special link style for the dark background sections (Header/Footer) */
+      .wetlands-link.light::after {
+        background-color: #ffffff;
+      }
+
       .wetlands-link:hover::after {
         transform: scaleX(1);
         transform-origin: bottom left;
@@ -86,46 +93,43 @@
   </head>
 
   <body>
-    <!-- 0. FIXED NAVIGATION BAR (UPDATED FOR LIGHT THEME) -->
+    <!-- 0. FIXED NAVIGATION BAR (UPDATED TEXT COLOR) -->
     <nav
-      class="fixed top-0 left-0 right-0 z-50 bg-page-bg border-b border-gray-300"
+      class="fixed top-0 left-0 right-0 z-50 bg-page-bg border-b border-gray-600"
     >
       <div
         class="max-w-4xl mx-auto px-6 md:px-10 py-4 flex justify-between items-center"
       >
         <!-- Left Side: Terminal prompt style header (Site title) -->
-        <div class="text-xl font-bold font-mono text-dark-accent">
-          Rinny Rahmania
-        </div>
+        <!-- Text color changed to white -->
+        <div class="text-xl font-bold font-mono text-white">Rinny Rahmania</div>
         <!-- Right Side: Links -->
-        <ul
-          class="flex space-x-6 text-text-muted text-sm md:text-base font-mono"
-        >
+        <ul class="flex space-x-6 text-gray-300 text-sm md:text-base font-mono">
           <li>
             <a
               href="#about"
-              class="wetlands-link hover:text-dark-accent transition-colors"
+              class="wetlands-link light hover:text-white transition-colors"
               >About</a
             >
           </li>
           <li>
             <a
               href="#publications"
-              class="wetlands-link hover:text-dark-accent transition-colors"
+              class="wetlands-link light hover:text-white transition-colors"
               >Publications</a
             >
           </li>
           <li>
             <a
               href="#projects"
-              class="wetlands-link hover:text-dark-accent transition-colors"
+              class="wetlands-link light hover:text-white transition-colors"
               >Projects</a
             >
           </li>
           <li>
             <a
               href="#contact"
-              class="wetlands-link hover:text-dark-accent transition-colors"
+              class="wetlands-link light hover:text-white transition-colors"
               >Contact</a
             >
           </li>
@@ -136,8 +140,7 @@
 
     <!-- MAIN CONTENT -->
     <main class="w-full max-w-4xl mx-auto pt-24 pb-12 px-4 sm:px-6 space-y-6">
-      <!-- 1. POST BLOCK (NEW FIRST SECTION) -->
-      <!-- Uses block-a (White) -->
+      <!-- 1. POST BLOCK (Uses light background, dark text) -->
       <article class="bg-block-a p-6 md:p-10">
         <!-- Monospace heading style -->
         <h2
@@ -181,8 +184,7 @@
       </article>
       <!-- END POST BLOCK -->
 
-      <!-- 2. PROFILE SECTION (NEW SECOND SECTION) -->
-      <!-- Uses block-b (Slightly Darker White) -->
+      <!-- 2. PROFILE SECTION (Uses light background, dark text) -->
       <article id="about" class="bg-block-b p-6 md:p-10">
         <header class="border-b border-gray-300 pb-6">
           <h2 class="text-xl font-bold text-dark-accent font-mono mb-4">
@@ -241,8 +243,7 @@
         </div>
       </article>
 
-      <!-- 3. PUBLICATIONS SECTION (NEW THIRD SECTION) -->
-      <!-- Uses block-a (White) -->
+      <!-- 3. PUBLICATIONS SECTION (Uses light background, dark text) -->
       <article id="publications" class="bg-block-a p-6 md:p-10">
         <h2
           class="text-xl font-bold text-dark-accent font-mono mb-4 border-b pb-2 border-gray-300"
@@ -300,8 +301,7 @@
       </article>
       <!-- END PUBLICATIONS SECTION -->
 
-      <!-- 4. PROJECTS SECTION (FOURTH SECTION) -->
-      <!-- Uses block-b (Slightly Darker White) -->
+      <!-- 4. PROJECTS SECTION (Uses light background, dark text) -->
       <article id="projects" class="bg-block-b p-6 md:p-10">
         <!-- Kept font-mono for the terminal heading style -->
         <h2
@@ -377,24 +377,25 @@
         <!-- END NEW READ MORE LINK -->
       </article>
 
-      <!-- 5. CONTACT BLOCK: FOOTER / CONNECT (FINAL SECTION) -->
-      <!-- Uses bg-page-bg (The overall darkest light gray, giving separation) -->
+      <!-- 5. CONTACT BLOCK: FOOTER / CONNECT (FINAL SECTION - UPDATED TEXT COLOR) -->
+      <!-- Uses bg-page-bg (Dark Blue background) -->
       <footer id="contact" class="bg-page-bg p-6 md:p-10">
-        <!-- Kept font-mono for the terminal heading style -->
+        <!-- Text color changed to white -->
         <h2
-          class="text-xl font-bold text-dark-accent font-mono mb-4 border-b pb-2 border-gray-300"
+          class="text-xl font-bold text-white font-mono mb-4 border-b pb-2 border-gray-600"
         >
           Contact
         </h2>
         <nav>
+          <!-- Text color changed to light gray, hover changed to white -->
           <ul
-            class="flex flex-wrap gap-4 md:gap-6 text-text-muted text-lg font-mono"
+            class="flex flex-wrap gap-4 md:gap-6 text-gray-300 text-lg font-mono"
           >
             <li>
               <a
                 href="https://github.com/rinnyrahmania"
                 target="_blank"
-                class="wetlands-link hover:text-dark-accent transition-colors"
+                class="wetlands-link light hover:text-white transition-colors"
               >
                 GitHub
               </a>
@@ -403,7 +404,7 @@
               <a
                 href="https://linkedin.com/in/your-profile"
                 target="_blank"
-                class="wetlands-link hover:text-dark-accent transition-colors"
+                class="wetlands-link light hover:text-white transition-colors"
               >
                 LinkedIn
               </a>
@@ -411,7 +412,7 @@
             <li>
               <a
                 href="mailto:your.email@example.com"
-                class="wetlands-link hover:text-dark-accent transition-colors"
+                class="wetlands-link light hover:text-white transition-colors"
               >
                 Email
               </a>
@@ -420,7 +421,7 @@
               <a
                 href="https://your-blog.dev"
                 target="_blank"
-                class="wetlands-link hover:text-dark-accent transition-colors"
+                class="wetlands-link light hover:text-white transition-colors"
               >
                 Blog
               </a>
