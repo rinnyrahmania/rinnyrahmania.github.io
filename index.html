@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Personal Page</title>
+    <!-- NEW: Load Google Fonts: Lato (Headings) and Roboto (Body) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind to use Lato and Roboto (UPDATED FOR LIGHT THEME) -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "page-bg": "#F7F7F7", // Very Light Gray (Main page BG)
+              "block-a": "#FFFFFF", // White (Lighter Block BG - for Post, Publications)
+              "block-b": "#EEEEEE", // Slightly Darker Block BG (for Profile, Projects)
+              "dark-accent": "#181818", // Very Dark Gray (Primary text/accent)
+              "text-muted": "#666666", // Medium Gray (Secondary text)
+            },
+            fontFamily: {
+              sans: ["Roboto", "sans-serif"],
+              heading: ["Lato", "sans-serif"],
+              mono: [
+                "ui-monospace",
+                "SFMono-Regular",
+                "Menlo",
+                "Monaco",
+                "Consolas",
+                "Liberation Mono",
+                "Courier New",
+                "monospace",
+              ],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Custom styling to enhance the "wetlands" look (UPDATED FOR LIGHT THEME) -->
+    <style>
+      /* Apply background and font settings to the body */
+      body {
+        background-color: theme("colors.page-bg"); /* Light background */
+        color: theme("colors.dark-accent"); /* Dark text */
+        font-family: "Roboto", sans-serif;
+        min-height: 100vh;
+        display: block;
+        padding: 0;
+      }
+
+      /* Subtle text decoration for the links */
+      .wetlands-link {
+        text-decoration: none;
+        position: relative;
+      }
+      .wetlands-link::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1px;
+        bottom: -2px;
+        left: 0;
+        background-color: theme("colors.dark-accent"); /* Use dark accent */
+        transform-origin: bottom right;
+        transition: transform 0.3s ease-out;
+      }
+      .wetlands-link:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+
+      /* FIX: Prevents fixed nav bar from covering anchor link targets */
+      #about,
+      #publications,
+      #projects,
+      #contact {
+        scroll-margin-top: 5rem; /* Ensures space equal to the nav height is reserved */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 0. FIXED NAVIGATION BAR (UPDATED FOR LIGHT THEME) -->
+    <nav
+      class="fixed top-0 left-0 right-0 z-50 bg-page-bg border-b border-gray-300"
+    >
+      <div
+        class="max-w-4xl mx-auto px-6 md:px-10 py-4 flex justify-between items-center"
+      >
+        <!-- Left Side: Terminal prompt style header (Site title) -->
+        <div class="text-xl font-bold font-mono text-dark-accent">
+          Rinny Rahmania
+        </div>
+        <!-- Right Side: Links -->
+        <ul
+          class="flex space-x-6 text-text-muted text-sm md:text-base font-mono"
+        >
+          <li>
+            <a
+              href="#about"
+              class="wetlands-link hover:text-dark-accent transition-colors"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#publications"
+              class="wetlands-link hover:text-dark-accent transition-colors"
+              >Publications</a
+            >
+          </li>
+          <li>
+            <a
+              href="#projects"
+              class="wetlands-link hover:text-dark-accent transition-colors"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="wetlands-link hover:text-dark-accent transition-colors"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END FIXED NAVIGATION BAR -->
+
+    <!-- MAIN CONTENT -->
+    <main class="w-full max-w-4xl mx-auto pt-24 pb-12 px-4 sm:px-6 space-y-6">
+      <!-- 1. POST BLOCK (NEW FIRST SECTION) -->
+      <!-- Uses block-a (White) -->
+      <article class="bg-block-a p-6 md:p-10">
+        <!-- Monospace heading style -->
+        <h2
+          class="text-xl font-bold text-dark-accent font-mono mb-4 border-b pb-2 border-gray-300"
+        >
+          Latest News
+        </h2>
+        <div class="space-y-4">
+          <!-- Image Container with Responsive Image -->
+          <a href="#post-link" class="block group">
+            <img
+              src="https://placehold.co/800x450/DDDDDD/666666?text=Post+Feature+Image"
+              alt="Feature image for the latest post"
+              class="w-full h-auto rounded-lg object-cover border-b-2 border-transparent group-hover:border-dark-accent transition-colors duration-300"
+              onerror="this.onerror=null; this.src='https://placehold.co/800x450/DDDDDD/666666?text=Image+Unavailable';"
+            />
+          </a>
+          <!-- Post Content -->
+          <h3
+            class="text-2xl font-heading text-dark-accent hover:text-text-muted transition-colors"
+          >
+            <a href="#post-link">Understanding the WebGPU Compute Pipeline</a>
+          </h3>
+          <p class="text-text-muted text-lg">
+            Lorem ipsum dolor sit amet. Non laborum vero eum asperiores
+            voluptatem ex reprehenderit voluptate qui similique iste non velit
+            omnis. Et veritatis provident qui laboriosam deleniti et magni
+            facilis ut commodi rerum 33 sapiente voluptatem quo aperiam unde non
+            culpa alias. Sed quasi reprehenderit sed architecto magni eos
+            laudantium dolorum sed neque amet et molestiae esse.
+          </p>
+          <div
+            class="text-sm text-text-muted font-mono flex justify-between items-center pt-2 border-t border-gray-300"
+          >
+            <span>Posted: 2025-10-04</span>
+            <a href="#post-link" class="text-dark-accent hover:underline"
+              >Read More -></a
+            >
+          </div>
+        </div>
+      </article>
+      <!-- END POST BLOCK -->
+
+      <!-- 2. PROFILE SECTION (NEW SECOND SECTION) -->
+      <!-- Uses block-b (Slightly Darker White) -->
+      <article id="about" class="bg-block-b p-6 md:p-10">
+        <header class="border-b border-gray-300 pb-6">
+          <h2 class="text-xl font-bold text-dark-accent font-mono mb-4">
+            About me
+          </h2>
+          <!-- Uses responsive flex classes: flex-col on mobile, flex-row on desktop (md) -->
+          <div
+            class="flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-6"
+          >
+            <!-- Avatar placeholder -->
+            <div
+              class="w-16 h-16 bg-gray-400 rounded-full flex items-center justify-center text-dark-accent text-2xl font-bold border-2 border-dark-accent"
+            >
+              RR
+            </div>
+            <div>
+              <!-- Uses Lato font-heading -->
+              <h1 class="text-3xl font-bold text-dark-accent mb-1 font-heading">
+                Rinny Rahmania
+                <br />
+                <span class="text-text-muted opacity-80"
+                  >| Senior Researcher</span
+                >
+              </h1>
+              <!-- Use monospace font for the subtitle to give a terminal feel -->
+              <p class="font-mono text-text-muted">
+                @ Ecology Research Center - BRIN, Indonesia.
+              </p>
+            </div>
+          </div>
+        </header>
+
+        <!-- ABOUT / STATUS -->
+        <div class="pt-6">
+          <h3 class="text-xl font-bold text-dark-accent font-mono mb-3">
+            Find my profile at:
+          </h3>
+          <div class="text-lg space-y-2">
+            <p class="text-text-muted">
+              ORCID:
+              <a
+                href="#project-1"
+                class="text-dark-accent hover:text-text-muted wetlands-link transition-colors"
+                >ORCID Link</a
+              >.
+            </p>
+            <p class="text-text-muted">
+              Researchgate:
+              <span class="text-dark-accent font-mono">Researchgate link</span>.
+            </p>
+            <p class="text-text-muted">
+              Google Scholar:
+              <span class="text-dark-accent">Google Scholar link</span>
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3. PUBLICATIONS SECTION (NEW THIRD SECTION) -->
+      <!-- Uses block-a (White) -->
+      <article id="publications" class="bg-block-a p-6 md:p-10">
+        <h2
+          class="text-xl font-bold text-dark-accent font-mono mb-4 border-b pb-2 border-gray-300"
+        >
+          Publications
+        </h2>
+        <ul class="list-disc pl-5 space-y-3 text-lg">
+          <li class="text-text-muted">
+            <a
+              href="#pub-1"
+              target="_blank"
+              class="text-dark-accent hover:text-text-muted wetlands-link transition-colors"
+            >
+              "Title of publication #1"
+            </a>
+            <span class="text-sm font-mono text-text-muted"
+              >(Journal name, 2025)</span
+            >
+          </li>
+          <li class="text-text-muted">
+            <a
+              href="#pub-2"
+              target="_blank"
+              class="text-dark-accent hover:text-text-muted wetlands-link transition-colors"
+            >
+              "Title of publication #2"
+            </a>
+            <span class="text-sm font-mono text-text-muted"
+              >(Journal name, 2025)</span
+            >
+          </li>
+          <li class="text-text-muted">
+            <a
+              href="#pub-3"
+              target="_blank"
+              class="text-dark-accent hover:text-text-muted wetlands-link transition-colors"
+            >
+              "Title of publication #3"
+            </a>
+            <span class="text-sm font-mono text-text-muted"
+              >(Journal name, 2025)</span
+            >
+          </li>
+        </ul>
+        <!-- NEW READ MORE LINK FOR PUBLICATIONS -->
+        <div class="pt-6 border-t border-gray-300 mt-6 flex justify-end">
+          <a
+            href="#full-publications-list"
+            class="text-lg font-heading text-dark-accent hover:text-text-muted wetlands-link transition-colors"
+          >
+            View All Publications (12+) →
+          </a>
+        </div>
+        <!-- END NEW READ MORE LINK -->
+      </article>
+      <!-- END PUBLICATIONS SECTION -->
+
+      <!-- 4. PROJECTS SECTION (FOURTH SECTION) -->
+      <!-- Uses block-b (Slightly Darker White) -->
+      <article id="projects" class="bg-block-b p-6 md:p-10">
+        <!-- Kept font-mono for the terminal heading style -->
+        <h2
+          class="text-xl font-bold text-dark-accent font-mono mb-4 border-b pb-2 border-gray-300"
+        >
+          Previous research projects
+        </h2>
+        <ul class="space-y-4 text-lg">
+          <!-- Project 1 -->
+          <li id="project-1" class="group">
+            <a
+              href="https://github.com/your-username/project-alpha"
+              target="_blank"
+              class="block p-3 -m-3 rounded-lg hover:bg-gray-200 transition-colors"
+            >
+              <span
+                class="block text-dark-accent group-hover:text-dark-accent font-mono transition-colors"
+                >Project Alpha (2024)</span
+              >
+              <span class="block text-text-muted text-sm">
+                Lorem ipsum dolor sit amet. Aut illum internos et sint similique
+                quo aperiam eius et nostrum voluptas est accusantium numquam ab
+                quasi pariatur.
+              </span>
+            </a>
+          </li>
+          <!-- Project 2 -->
+          <li class="group">
+            <a
+              href="https://github.com/your-username/project-beta"
+              target="_blank"
+              class="block p-3 -m-3 rounded-lg hover:bg-gray-200 transition-colors"
+            >
+              <span
+                class="block text-dark-accent group-hover:text-dark-accent font-mono transition-colors"
+                >Project Beta (2023)</span
+              >
+              <span class="block text-text-muted text-sm">
+                Lorem ipsum dolor sit amet. Aut illum internos et sint similique
+                quo aperiam eius et nostrum voluptas est accusantium numquam ab
+                quasi pariatur.
+              </span>
+            </a>
+          </li>
+          <!-- Project 3 -->
+          <li class="group">
+            <a
+              href="https://github.com/your-username/project-gamma"
+              target="_blank"
+              class="block p-3 -m-3 rounded-lg hover:bg-gray-200 transition-colors"
+            >
+              <span
+                class="block text-dark-accent group-hover:text-dark-accent font-mono transition-colors"
+                >Project Gamma (2022)</span
+              >
+              <span class="block text-text-muted text-sm">
+                Lorem ipsum dolor sit amet. Aut illum internos et sint similique
+                quo aperiam eius et nostrum voluptas est accusantium numquam ab
+                quasi pariatur.
+              </span>
+            </a>
+          </li>
+        </ul>
+        <!-- NEW READ MORE LINK FOR PROJECTS -->
+        <div class="pt-6 border-t border-gray-300 mt-6 flex justify-end">
+          <a
+            href="#full-projects-list"
+            class="text-lg font-heading text-dark-accent hover:text-text-muted wetlands-link transition-colors"
+          >
+            View Complete Project History →
+          </a>
+        </div>
+        <!-- END NEW READ MORE LINK -->
+      </article>
+
+      <!-- 5. CONTACT BLOCK: FOOTER / CONNECT (FINAL SECTION) -->
+      <!-- Uses bg-page-bg (The overall darkest light gray, giving separation) -->
+      <footer id="contact" class="bg-page-bg p-6 md:p-10">
+        <!-- Kept font-mono for the terminal heading style -->
+        <h2
+          class="text-xl font-bold text-dark-accent font-mono mb-4 border-b pb-2 border-gray-300"
+        >
+          Contact
+        </h2>
+        <nav>
+          <ul
+            class="flex flex-wrap gap-4 md:gap-6 text-text-muted text-lg font-mono"
+          >
+            <li>
+              <a
+                href="https://github.com/rinnyrahmania"
+                target="_blank"
+                class="wetlands-link hover:text-dark-accent transition-colors"
+              >
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/your-profile"
+                target="_blank"
+                class="wetlands-link hover:text-dark-accent transition-colors"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:your.email@example.com"
+                class="wetlands-link hover:text-dark-accent transition-colors"
+              >
+                Email
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://your-blog.dev"
+                target="_blank"
+                class="wetlands-link hover:text-dark-accent transition-colors"
+              >
+                Blog
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </main>
+  </body>
+</html>
