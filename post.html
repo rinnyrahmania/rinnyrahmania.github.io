@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Personal Page</title>
+    <!-- NEW: Load Google Fonts: Lato (Headings) and Roboto (Body) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind to use Lato and Roboto (UPDATED FOR LIGHT THEME) -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "page-bg": "#0E2954", // Dark Blue (Used for Header/Footer background)
+              "block-a": "#FFFFFF", // White (Lighter Block BG - for Post, Publications)
+              "block-b": "#EEEEEE", // Slightly Darker Block BG (for Profile, Projects)
+              "dark-accent": "#181818", // Very Dark Gray (Primary text/accent for light blocks)
+              "text-muted": "#666666", // Medium Gray (Secondary text for light blocks)
+            },
+            fontFamily: {
+              sans: ["Roboto", "sans-serif"],
+              heading: ["Lato", "sans-serif"],
+              mono: [
+                "ui-monospace",
+                "SFMono-Regular",
+                "Menlo",
+                "Monaco",
+                "Consolas",
+                "Liberation Mono",
+                "Courier New",
+                "monospace",
+              ],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Custom styling to enhance the "wetlands" look (UPDATED FOR LIGHT THEME) -->
+    <style>
+      /* Apply background and font settings to the body */
+      body {
+        background-color: theme("colors.page-bg"); /* Dark Blue background */
+        color: theme("colors.dark-accent"); /* Dark text for the light blocks */
+        font-family: "Roboto", sans-serif;
+        min-height: 100vh;
+        display: block;
+        padding: 0;
+      }
+
+      /* Subtle text decoration for the links */
+      .wetlands-link {
+        text-decoration: none;
+        position: relative;
+      }
+      .wetlands-link::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1px;
+        bottom: -2px;
+        left: 0;
+        /* Using dark accent for links in light blocks, and white for links in dark blocks */
+        background-color: theme("colors.dark-accent");
+        transform-origin: bottom right;
+        transition: transform 0.3s ease-out;
+      }
+
+      /* Special link style for the dark background sections (Header/Footer) */
+      .wetlands-link.light::after {
+        background-color: #ffffff;
+      }
+
+      .wetlands-link:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+
+      /* FIX: Prevents fixed nav bar from covering anchor link targets */
+      #about,
+      #publications,
+      #projects,
+      #contact {
+        scroll-margin-top: 5rem; /* Ensures space equal to the nav height is reserved */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 0. FIXED NAVIGATION BAR (UPDATED TEXT COLOR) -->
+    <nav
+      class="fixed top-0 left-0 right-0 z-50 bg-page-bg border-b border-gray-600"
+    >
+      <div
+        class="max-w-4xl mx-auto px-6 md:px-10 py-4 flex justify-between items-center"
+      >
+        <!-- Left Side: Terminal prompt style header (Site title) -->
+        <!-- Text color changed to white -->
+        <div class="text-xl font-bold font-mono text-white">Rinny Rahmania</div>
+        <!-- Right Side: Links -->
+        <ul class="flex space-x-6 text-gray-300 text-sm md:text-base font-mono">
+          <li>
+            <a
+              href="index.html#about"
+              class="wetlands-link light hover:text-white transition-colors"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.html#publications"
+              class="wetlands-link light hover:text-white transition-colors"
+              >Publications</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.html#projects"
+              class="wetlands-link light hover:text-white transition-colors"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="index.html#contact"
+              class="wetlands-link light hover:text-white transition-colors"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END FIXED NAVIGATION BAR -->
+
+    <!-- MAIN CONTENT -->
+    <main class="w-full max-w-4xl mx-auto pt-24 pb-12 px-4 sm:px-6 space-y-6">
+      <!-- FULL POST CONTENT -->
+      <article class="bg-block-a p-6 md:p-10">
+        <header class="mb-8 border-b pb-4 border-gray-300">
+          <h1 class="text-3xl md:text-4xl font-heading text-dark-accent mb-2">
+            Understanding the WebGPU Compute Pipeline
+          </h1>
+          <p class="text-base text-text-muted font-mono">
+            Posted: 2025-10-04 | Category: Technology
+          </p>
+        </header>
+
+        <!-- Feature Image -->
+        <img
+          src="https://placehold.co/800x450/DDDDDD/666666?text=Post+Feature+Image"
+          alt="Feature image for the latest post"
+          class="w-full h-auto rounded-lg mb-8"
+          onerror="this.onerror=null; this.src='https://placehold.co/800x450/DDDDDD/666666?text=Image+Unavailable';"
+        />
+
+        <!-- Post Body -->
+        <div
+          class="prose max-w-none text-lg leading-relaxed text-dark-accent space-y-6"
+        >
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+          <h2 class="text-2xl font-heading text-dark-accent pt-4">
+            The Power of Parallel Processing
+          </h2>
+          <p>
+            The WebGPU compute pipeline unlocks the power of your GPU for
+            general-purpose computation, not just rendering graphics. This
+            allows for massive parallel processing, dramatically speeding up
+            tasks like machine learning, data analysis, and complex simulations.
+            This approach leverages thousands of small processing units
+            simultaneously.
+          </p>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum. Quisque in lacus
+            ligula. Curabitur vel pretium eros. Aliquam erat volutpat.
+          </p>
+          <div class="bg-block-b p-4 rounded-lg border border-gray-300">
+            <h3 class="font-mono text-dark-accent">Key Takeaway</h3>
+            <p class="text-text-muted text-base mt-1">
+              Compute shaders allow you to write custom programs that run
+              directly on the GPU, bypassing the traditional rendering pipeline.
+            </p>
+          </div>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo.
+          </p>
+        </div>
+
+        <div class="pt-8 mt-8 border-t border-gray-300 text-center">
+          <a
+            href="index.html"
+            class="text-lg font-heading text-dark-accent hover:text-text-muted wetlands-link transition-colors"
+          >
+            ← Back to Homepage
+          </a>
+        </div>
+      </article>
+
+      <!-- 5. CONTACT BLOCK: FOOTER / CONNECT (Consistant with index.html) -->
+      <footer id="contact" class="bg-page-bg p-6 md:p-10">
+        <h2
+          class="text-xl font-bold text-white font-mono mb-4 border-b pb-2 border-gray-600"
+        >
+          Contact
+        </h2>
+        <nav>
+          <ul
+            class="flex flex-wrap gap-4 md:gap-6 text-gray-300 text-lg font-mono"
+          >
+            <li>
+              <a
+                href="https://github.com/rinnyrahmania"
+                target="_blank"
+                class="wetlands-link light hover:text-white transition-colors"
+              >
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/your-profile"
+                target="_blank"
+                class="wetlands-link light hover:text-white transition-colors"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:your.email@example.com"
+                class="wetlands-link light hover:text-white transition-colors"
+              >
+                Email
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://your-blog.dev"
+                target="_blank"
+                class="wetlands-link light hover:text-white transition-colors"
+              >
+                Blog
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </main>
+  </body>
+</html>
