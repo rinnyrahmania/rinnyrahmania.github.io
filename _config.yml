@@ -1,2 +1,5 @@
 theme: jekyll-theme-cayman
 title: Rinny Rahmania
+description: This page is built using cayman theme.
+show_downloads: false
+google_analytics:
