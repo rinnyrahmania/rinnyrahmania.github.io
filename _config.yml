@@ -1,5 +1,8 @@
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+ remote_theme: dieghernan/chulapa
+ ... more config options
+
 title: Rinny Rahmania
 description: This page is built using cayman theme.
-show_downloads: false
-google_analytics:
+#show_downloads: false
+#google_analytics:
