@@ -1,0 +1,88 @@
+---
+title: ""
+page-layout: full
+title-block-banner: true
+---
+
+::: center-text
+# {{< fa hand-peace >}} Greetings...!!!
+
+I just joined this great community; and there's so many things that I need to learn.\
+Let's work together. Cheers ...
+:::
+
+------------------------------------------------------------------------
+
+::::: grid
+::: {.g-col-8 style="bgcolor:gray"}
+### Brief introduction
+
+> I'm from Indonesia - the largest archipelagics state in equator, comprised of thousands of islands and a vast coastal areas. There are many emerging issues are occurred in marine and coastal areas here, remain unsolved. And these challenges offer opportunities to develop some useful tools or even create innovations that can be tested here, then applied in other coastal areas across the globe.
+:::
+
+::: {.g-col-4 .vh-center .center-text}
+Still curious? click 'About'<br> above or this button here:<br><br> [Tell me more](about.qmd){.btn .btn-secondary role="button"}
+:::
+:::::
+
+<br>
+
+------------------------------------------------------------------------
+
+:::::::::::::::: content-block
+::::::::::::::: features
+:::::: feature
+:::: feature-top
+### Blog
+
+Latest from the blog
+
+::: {#listing-blog}
+:::
+::::
+
+::: feature-bottom
+[Read more](blog.qmd){.btn .btn-secondary role="button"}
+:::
+::::::
+
+:::::: feature
+:::: feature-top
+### Lesssons
+
+Lessons learned
+
+::: {#listing-talks}
+:::
+::::
+
+::: feature-bottom
+[Read more](lessons.qmd){.btn .btn-secondary role="button"}
+:::
+::::::
+
+:::::: feature
+:::: feature-top
+### Projects
+
+Latest tinkering
+
+::: {#listing-projects}
+:::
+::::
+
+::: feature-bottom
+[Read more](projects.qmd){.btn .btn-secondary role="button"}
+:::
+::::::
+:::::::::::::::
+::::::::::::::::
+
+------------------------------------------------------------------------
+
+### I'm currently working at
+
+```{=html}
+<h4 style="font-family: 'JetBrains Mono'; color: red; font-size: 16px; line-height: 1.1;">BRIN, Indonesia</h4>
+```
+I lead the Research Group for Coastal Ecological Modelling in Indonesia, who focusing our research field on Remote Sensing, GIS, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, and Marine Debris.
