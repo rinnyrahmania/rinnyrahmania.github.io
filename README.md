@@ -1,6 +1,6 @@
 # How I build my personal page
 
-I would like to share some of my research activities through git. I've been observing many examples before making my own github page. By far, Michell's theme suits my purpose. Highly appreciate for sharing this great work.
+I would like to share some of my research activities through git; therefore I believe a github page can be used as a landing page for this purpose. I've been observing many examples before making my own github page. By far, Michell's theme suits my need. Highly appreciate to Robert Michell for sharing this great work.
 
 <br>
 
