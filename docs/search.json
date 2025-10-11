@@ -1,16 +1,79 @@
 [
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\n\n\n\n\n\n\n\n\n\n\n\nLA County COVID-19 Dashboard\n\n\n\n\n\n\n\n\n\n\n\nApr 2, 2020\n\n\nRobert Mitchell\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lessons.html",
+    "href": "lessons.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Talks\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "rinnyrahmania.github.io",
+    "title": " Greetings…!!!",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Greetings…!!!\nI just joined this great community; and there’s so many things that I need to learn.\nLet’s work together. Cheers …\n\n\n\n\nBrief introduction\n\nI’m from Indonesia - the largest archipelagics state in equator, comprised of thousands of islands and a vast coastal areas. There are many emerging issues are occurred in marine and coastal areas here, remain unsolved. And these challenges offer opportunities to develop some useful tools or even create innovations that can be tested here, then applied in other coastal areas across the globe.\n\n\n\nStill curious? click ‘About’ above or this button here: Tell me more\n\n\n\n\n\n\n\n\nBlog\nLatest from the blog\n\n\n\n\n\nRead more\n\n\n\n\nLesssons\nLessons learned\n\n\n\n\n\nRead more\n\n\n\n\nProjects\nLatest tinkering\n\n\n\n\n\nRead more\n\n\n\n\n\n\nI’m currently working at\nBRIN, Indonesia\nI lead the Research Group for Coastal Ecological Modelling in Indonesia, who focusing our research field on Remote Sensing, GIS, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, and Marine Debris."
+  },
+  {
+    "objectID": "blog/2025-10-10-first-post/first-post.html",
+    "href": "blog/2025-10-10-first-post/first-post.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Rinny Rahmania",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About me\n\n\n Personal Philosophy\n\n\nEdit here…\n\n\n Personal Skills\n\n\nEdit here…\n\n\n Education\n\n\n\n Doctorate: Montpellier University (2016)\n\n\n Graduate: IPB University (2006)\n\n\n Undergraduate: Haluoleo University (2001)\n\n\n\n Work Experience\n\n\n\n\nBRIN (The National Research and Innovation Agency), Indonesia | … – Present\n\n\nEdit here…\n\n\n\nKKP (Ministry of Marine Affairs and Fisheries), Indonesia | … – 2022\n\n\nEdit here…\n\n\n Accomplishments\n\n\n\n\nEdit here….\n\n\n\n\nEdit here….\n\n\n\n\nEdit here….\n\n\n\n\n Interests\n\n\nEdit here…"
+  },
+  {
+    "objectID": "BACA.html",
+    "href": "BACA.html",
+    "title": "This is my personal page that the themes customized from Robert Michel’s",
+    "section": "",
+    "text": "I’ve been observing many examples before making my own github page. By far, Michell’s theme suits my purpose. Highly appreciate for showcasing this great work.\n\n\nThis page has three main sections:\n\nblog\nprojects\nlesson\n\n\nEach has it’s own landing page and _metadata.yml file. Additionally the ejs directory contains a small custom listing template for the main landing page.\nI agree with Michell’s idea that some older blog posts should not be rendered; rather, they’re sort of put together with images and text.\nLessons and projects use an &lt;iframe&gt; to source the html file in with an option to make it full screen, which I thought was a neat idea.\n\n\n\n\nMore settings and configuration for this theme, check the following resources: 1. Quarto documentation page (https://quarto.org/docs/websites/) 2. Robert Michell’s website (https://robertmitchellv.com/) and his repository (https://github.com/robertmitchellv/robertmitchellv.github.io)"
+  },
+  {
+    "objectID": "BACA.html#organization",
+    "href": "BACA.html#organization",
+    "title": "This is my personal page that the themes customized from Robert Michel’s",
+    "section": "",
+    "text": "This page has three main sections:\n\nblog\nprojects\nlesson\n\n\nEach has it’s own landing page and _metadata.yml file. Additionally the ejs directory contains a small custom listing template for the main landing page.\nI agree with Michell’s idea that some older blog posts should not be rendered; rather, they’re sort of put together with images and text.\nLessons and projects use an &lt;iframe&gt; to source the html file in with an option to make it full screen, which I thought was a neat idea."
+  },
+  {
+    "objectID": "BACA.html#theming",
+    "href": "BACA.html#theming",
+    "title": "This is my personal page that the themes customized from Robert Michel’s",
+    "section": "",
+    "text": "More settings and configuration for this theme, check the following resources: 1. Quarto documentation page (https://quarto.org/docs/websites/) 2. Robert Michell’s website (https://robertmitchellv.com/) and his repository (https://github.com/robertmitchellv/robertmitchellv.github.io)"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lessons/2018-12-east-la-r-users/index.html",
+    "href": "lessons/2018-12-east-la-r-users/index.html",
+    "title": "Interactive Dashboards with shiny",
+    "section": "",
+    "text": "Full Screen"
+  },
+  {
+    "objectID": "projects/2020-04-covid19-dashboard/index.html",
+    "href": "projects/2020-04-covid19-dashboard/index.html",
+    "title": "LA County COVID-19 Dashboard",
+    "section": "",
+    "text": "Full Screen"
   }
 ]

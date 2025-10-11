@@ -1,0 +1,22 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/2020-04-covid19-dashboard/index.html"
+    ]
+  },
+  {
+    "listing": "/lessons.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/2025-10-10-first-post/first-post.html",
+    "items": []
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/2025-10-10-first-post/first-post.html"
+    ]
+  }
+]
