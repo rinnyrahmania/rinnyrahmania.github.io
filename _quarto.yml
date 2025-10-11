@@ -1,0 +1,48 @@
+project:
+  type: website
+
+website:
+  title: "Rinny Rahmania"
+  description: "Rinny Rahmania's personal website"
+  favicon: "images/favicon.ico"
+  twitter-card:
+    creator: "@rinnyrahmania"
+  site-url: https://rinnyrahmania.github.io/
+  repo-url: https://rinnyrahmania.github.io/
+  navbar:
+    title: false
+    background: primary
+    search: true
+    pinned: true
+    left: 
+      - text: "{{< fa house-user >}} Home"
+        href: index.qmd
+      - text: "{{< fa laptop-code >}} Blog"
+        href: blog.qmd
+      - text: "{{< fa chart-line >}} Projects"
+        href: projects.qmd
+      - text: "{{< fa chalkboard-user >}} Lessons"
+        href: lessons.qmd
+      - text: "{{< fa address-card >}} About"
+        href: about.qmd
+      - text: "{{< fa paper-plane >}} Contact"
+        href: mailto:rinny.rahmania@brin.go.id
+  page-footer:
+    background: primary
+    left: "{{< fa copyright >}} 2025, Rinny Rahmania"
+    center: "Base theme from Robert Mitchell <br> Made with [Quarto](https://quarto.org/)"
+    right:
+      - icon: envelope
+        href: mailto:rinny.rahmania@brin.go.id/
+      - icon: github
+        href: https://rinnyrahmania.github.io/
+      - icon: linkedin
+        href: https://id.linkedin.com/in/rinny-rahmania-phd-3b0910285
+
+format:
+  html:
+    theme:
+      light: [flatly, custom.scss]
+      dark: [darkly, custom-dark.scss]
+
+freeze: true

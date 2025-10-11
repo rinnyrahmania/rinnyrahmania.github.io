@@ -1,0 +1,15 @@
+{
+  "hash": "6bd9a1bb16e4edd88d2485b4cd3b177a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"\"\nimage: \"images/me.png\"\nabout:\n  template: trestles\n  links:\n    - icon: github\n      text: Github\n      href: https://github.com/rinnyrahmania\n    - icon: orcid\n      text: ORCID\n      href: https://orcid.org/0000-0002-1935-8294\n    - icon: researchgate\n      text: Researchgate\n      href: https://twitter.com\n    - icon: google\n      text: Google Scholar\n      href: https://scholar.google.com/citations?hl=id&user=5G6nIG8AAAAJ\n    - icon: linkedin\n      text: LinkedIn\n      href: https://id.linkedin.com/in/rinny-rahmania-phd-3b0910285\n---\n\n\n### About me\n\n<div style=\"text-align: left;\">\n\n<h4 style=\"text-weight: bold;\">\n{{< fa compass >}} Personal Philosophy\n</h4>\n<p>\nEdit here...\n</p>\n\n\n<h4 style=\"text-weight: bold;\">\n{{< fa magic >}} Personal Skills\n</h4>\n<p>\nEdit here...\n</p>\n\n\n<h4 style=\"text-weight: bold;\">\n{{< fa graduation-cap >}} Education\n</h4>\n<ul>\n<li>{{< fa angle-double-right >}} Doctorate: Montpellier University (2016)</li>\n<li>{{< fa angle-double-right >}} Graduate: IPB University (2006)</li>\n<li>{{< fa angle-double-right >}} Undergraduate: Haluoleo University (2001)</li>\n</ul>\n\n\n<h4 style=\"text-weight: bold;\">\n{{< fa institution >}} Work Experience\n</h4><br>\n<h6>1. BRIN (The National Research and Innovation Agency), Indonesia | ... -- Present</h6>\n<p style=\"text-indent: 33px;\">\nEdit here...\n</p>\n<h6>2. KKP (Ministry of Marine Affairs and Fisheries), Indonesia | ... -- 2022</h6>\n<p style=\"text-indent: 33px;\">\nEdit here...\n</p>\n\n\n\n<h4 style=\"text-weight: bold;\">\n{{< fa trophy >}} Accomplishments\n</h4>\n<ul>\n<li><p>Edit here....</p></li>\n<li><p>Edit here....</p></li>\n<li><p>Edit here....</p></li>\n</ul>\n\n\n<h4 style=\"text-weight: bold;\">\n{{< fa child >}} Interests\n</h4>\n<p>\nEdit here...\n</p>\n\n</div>\n\n<br>\n\n<small><em>Updated on: 2025-10-11</em></small>\n\n\n::: {.cell}\n\n```{.r .cell-code}\nprint(paste(\"Today's date is:\", Sys.Date()))\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"Today's date is: 2025-10-11\"\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
