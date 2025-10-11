@@ -11,9 +11,12 @@ about:
     - icon: orcid
       text: ORCID
       href: https://orcid.org/0000-0002-1935-8294
+    - icon: scopus
+      text: SCOPUS
+      href: https://www.scopus.com/authid/detail.uri?authorId=57156632300
     - icon: researchgate
       text: Researchgate
-      href: https://twitter.com
+      href: https://www.researchgate.net/profile/Rinny-Rahmania
     - icon: google
       text: Google Scholar
       href: https://scholar.google.com/citations?hl=id&user=5G6nIG8AAAAJ
@@ -25,21 +28,11 @@ about:
 
 ### About me
 
-<div style="text-align: left;">
-
 <h4 style="text-weight: bold;">
-{{< fa compass >}} Personal Philosophy
+{{< fa magic >}} Field of expertise
 </h4>
 <p>
-Edit here...
-</p>
-
-
-<h4 style="text-weight: bold;">
-{{< fa magic >}} Personal Skills
-</h4>
-<p>
-Edit here...
+Remote sensing application, blue carbon, marine and coastal resources management, coastal spatial planning, marine debris
 </p>
 
 
@@ -48,7 +41,7 @@ Edit here...
 </h4>
 <ul>
 <li>{{< fa angle-double-right >}} Doctorate: Montpellier University (2016)</li>
-<li>{{< fa angle-double-right >}} Graduate: IPB University (2006)</li>
+<li>{{< fa angle-double-right >}} Graduate: IPB University (2005)</li>
 <li>{{< fa angle-double-right >}} Undergraduate: Haluoleo University (2001)</li>
 </ul>
 
@@ -56,32 +49,28 @@ Edit here...
 <h4 style="text-weight: bold;">
 {{< fa institution >}} Work Experience
 </h4><br>
-<h6>1. BRIN (The National Research and Innovation Agency), Indonesia | ... -- Present</h6>
-<p style="text-indent: 33px;">
-Edit here...
-</p>
-<h6>2. KKP (Ministry of Marine Affairs and Fisheries), Indonesia | ... -- 2022</h6>
-<p style="text-indent: 33px;">
-Edit here...
-</p>
+<h6>1. BRIN (The National Research and Innovation Agency), Indonesia | 2022 -- Present</h6>
+<ul><li><p>
+I am a senior researcher at Ecology Research center - BRIN, Indonesia; and lead the Coastal Modelling research group.   
+</p></li></ul>
+<h6>2. KKP (Ministry of Marine Affairs and Fisheries), Indonesia | 2006 -- 2022</h6>
+<ul><li><p>
+I started my career as researcher at Marine Technology Research Center - an institution under the Ministry of Marine Affairs and Fisheries at time.
+</p></li></ul>
 
 
 
 <h4 style="text-weight: bold;">
 {{< fa trophy >}} Accomplishments
 </h4>
-<ul>
-<li><p>Edit here....</p></li>
-<li><p>Edit here....</p></li>
-<li><p>Edit here....</p></li>
-</ul>
+<p>I have obtained number of research grant from various institutions, i.e.: from World Bank, AFD (France), APEC, and from various Indonesian government agencies. You may find publications resulted from these funding at my researchgate page.</p>
 
 
 <h4 style="text-weight: bold;">
-{{< fa child >}} Interests
+{{< fa child >}} Research interests
 </h4>
 <p>
-Edit here...
+Remote Sensing and GIS application development, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, Marine Debris.
 </p>
 
 </div>
