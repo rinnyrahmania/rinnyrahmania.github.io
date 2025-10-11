@@ -4,12 +4,7 @@ page-layout: full
 title-block-banner: true
 ---
 
-::: center-text
-# {{< fa hand-peace >}} Greetings...!!!
-
-I just joined this great community; and there's so many things that I need to learn.\
-Let's work together. Cheers ...
-:::
+![](images/bgCEED.png)
 
 ------------------------------------------------------------------------
 
@@ -85,4 +80,5 @@ Latest tinkering
 ```{=html}
 <h4 style="font-family: 'JetBrains Mono'; color: red; font-size: 16px; line-height: 1.1;">BRIN, Indonesia</h4>
 ```
+
 I lead the Research Group for Coastal Ecological Modelling in Indonesia, who focusing our research field on Remote Sensing, GIS, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, and Marine Debris.
