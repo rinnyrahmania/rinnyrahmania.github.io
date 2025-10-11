@@ -1,4 +1,4 @@
-# This is my personal page that the themes customized from Robert Michel's
+# How I build my personal page
 
 I would like to share some of my research activities through git. I've been observing many examples before making my own github page. By far, Michell's theme suits my purpose. Highly appreciate for sharing this great work.
 
