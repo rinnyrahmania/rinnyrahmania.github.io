@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -42,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-6d1693bc59648c12b579535a39745dca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bdc4f87e19ee5091b246e556999b59f5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-a4e3dc74e9eae4be38a00fc7d06b29d0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-bdc4f87e19ee5091b246e556999b59f5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-08ed12050d23021c2e386f1a66bc0215.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-68f738d480e489b26c53dfdbedf20431.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-08ed12050d23021c2e386f1a66bc0215.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -74,7 +76,121 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing-blog .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-freeze','listing-language','listing-title-block-banner','listing-title','listing-author','listing-date','listing-categories','listing-listing','listing-page-layout','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-freeze","listing-language","listing-title-block-banner","listing-title","listing-author","listing-date","listing-categories","listing-listing","listing-page-layout","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing-blog'] = new List('listing-listing-blog', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing-lessons .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing-lessons'] = new List('listing-listing-lessons', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing-projects'] = new List('listing-listing-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta name="twitter:title" content="– Rinny Rahmania">
 <meta name="twitter:description" content="Rinny Rahmania’s personal website">
@@ -328,8 +444,27 @@ ul.task-list li input[type="checkbox"] {
 <section id="blog" class="level3 feature-top">
 <h3 class="anchored" data-anchor-id="blog">Blog</h3>
 <p>Latest from the blog</p>
-<div id="listing-blog">
-
+<div id="listing-listing-blog" class="quarto-listing quarto-listing-container-custom">
+<!-- attributes for item -->
+<!--  freeze,
+      title-block-banner,
+      title,
+      author,
+      date,
+      categories,
+      image,
+      path,
+      image-alt,
+      description,
+      filename,
+      file-modified,
+      reading-time,
+      sortableValues -->
+<h4 class="anchored">
+<a href="./blog/2025-10-12-barrier-to-entry/barrier-to-entry.html">Barrier to entry in collaborative workflow</a>
+</h4>
+<p><small><i class="fa-solid fa-calendar" aria-label="calendar"></i> Oct 12, 2025</small></p>
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
 <div class="feature-bottom">
@@ -340,8 +475,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="lesssons" class="level3 feature-top">
 <h3 class="anchored" data-anchor-id="lesssons">Lesssons</h3>
 <p>Lessons learned</p>
-<div id="listing-talks">
-
+<div id="listing-listing-lessons" class="quarto-listing quarto-listing-container-custom">
+<!-- attributes for item -->
+<!--  freeze,
+      title-block-banner,
+      title,
+      author,
+      date,
+      categories,
+      image,
+      path,
+      image-alt,
+      description,
+      filename,
+      file-modified,
+      reading-time,
+      sortableValues -->
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
 <div class="feature-bottom">
@@ -352,8 +502,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="projects" class="level3 feature-top">
 <h3 class="anchored" data-anchor-id="projects">Projects</h3>
 <p>Latest research project</p>
-<div id="listing-projects">
-
+<div id="listing-listing-projects" class="quarto-listing quarto-listing-container-custom">
+<!-- attributes for item -->
+<!--  freeze,
+      title-block-banner,
+      title,
+      author,
+      date,
+      categories,
+      image,
+      path,
+      image-alt,
+      description,
+      filename,
+      file-modified,
+      reading-time,
+      sortableValues -->
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
 <div class="feature-bottom">
@@ -367,6 +532,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="im-currently-working-at">I’m currently working at</h3>
 <h4 style="font-family: 'JetBrains Mono'; color: red; font-size: 16px; line-height: 1.1;" class="anchored">BRIN, Indonesia</h4>
 <p>I lead the Research Group for Coastal Ecological Modelling in Indonesia, who focusing our research field on Remote Sensing, GIS, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, and Marine Debris.</p>
+
 
 
 </section>
@@ -789,7 +955,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><i class="fa-solid fa-copyright" aria-label="copyright"></i> 2025, Rinny Rahmania</p>
+<p><i class="fa-solid fa-copyright" aria-label="copyright"></i> 2025, Rinny Rahmania | All rights reserved</p>
 </div>   
     <div class="nav-footer-center">
 <p>Base theme from Robert Mitchell <br> Made with <a href="https://quarto.org/">Quarto</a></p>

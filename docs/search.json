@@ -4,35 +4,21 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Projects\n\n\n\n\n\n\n\n\n\n\n\nLA County COVID-19 Dashboard\n\n\n\n\n\n\n\n\n\n\n\nApr 2, 2020\n\n\nRobert Mitchell\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lessons.html",
-    "href": "lessons.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Talks\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Rinny Rahmania",
     "section": "",
-    "text": "Brief introduction\n\nI’m from Indonesia - the largest archipelagics state in equator, comprised of thousands of islands and a vast coastal areas. There are many emerging issues are occurred in marine and coastal areas here, remain unsolved. And these challenges offer opportunities to develop some useful tools or even create innovations that can be tested here, then applied in other coastal areas across the globe.\n\n\n\nStill curious? click ‘About’ above or this button here: Tell me more\n\n\n\n\n\n\n\n\nBlog\nLatest from the blog\n\n\n\n\n\nRead more\n\n\n\n\nLesssons\nLessons learned\n\n\n\n\n\nRead more\n\n\n\n\nProjects\nLatest research project\n\n\n\n\n\nRead more\n\n\n\n\n\n\nI’m currently working at\nBRIN, Indonesia\nI lead the Research Group for Coastal Ecological Modelling in Indonesia, who focusing our research field on Remote Sensing, GIS, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, and Marine Debris."
+    "text": "Brief introduction\n\nI’m from Indonesia - the largest archipelagics state in equator, comprised of thousands of islands and a vast coastal areas. There are many emerging issues that occurred in marine and coastal areas here, remain unsolved. And these challenges offer opportunities to develop some useful tools or even create innovations that can be tested here, then applied in other coastal areas across the globe.\n\n\n\nStill curious? click ‘About’ above or this button here: Tell me more\n\n\n\n\n\n\n\n\nBlog\nLatest from the blog\n\n\n\n\nBarrier to entry in collaborative workflow\n\n Oct 12, 2025\nNo matching items\n\n\n\nRead more\n\n\n\n\nLesssons\nLessons learned\n\n\n\nNo matching items\n\n\n\nRead more\n\n\n\n\nProjects\nLatest research project\n\n\n\nNo matching items\n\n\n\nRead more\n\n\n\n\n\n\nI’m currently working at\nBRIN, Indonesia\nI lead the Research Group for Coastal Ecological Modelling in Indonesia, who focusing our research field on Remote Sensing, GIS, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, and Marine Debris."
   },
   {
-    "objectID": "blog/2025-10-10-first-post/first-post.html",
-    "href": "blog/2025-10-10-first-post/first-post.html",
-    "title": "Blog",
+    "objectID": "blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
+    "href": "blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
+    "title": "Barrier to entry in collaborative workflow",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Rinny Rahmania",
-    "section": "",
-    "text": "About me\n\n\n Field of expertise\n\n\nRemote sensing application, blue carbon, marine and coastal resources management, coastal spatial planning, marine debris\n\n\n Education\n\n\n\n Doctorate: Montpellier University (2016)\n\n\n Graduate: IPB University (2005)\n\n\n Undergraduate: Haluoleo University (2001)\n\n\n\n Work Experience\n\n\n\n\nBRIN (The National Research and Innovation Agency), Indonesia | 2022 – Present\n\n\n\n\nI am a senior researcher at Ecology Research center - BRIN, Indonesia; and lead the Coastal Modelling research group.\n\n\n\n\n\nKKP (Ministry of Marine Affairs and Fisheries), Indonesia | 2006 – 2022\n\n\n\n\nI started my career as researcher at Marine Technology Research Center - an institution under the Ministry of Marine Affairs and Fisheries at that time.\n\n\n\n\n Accomplishments\n\n\nI have obtained number of research grant from various institutions, i.e.: from World Bank, AFD (France), APEC, and from various Indonesian government agencies. You may find publications resulted from these funding at my Researchgate page.\n\n\n Research interests\n\n\nRemote Sensing and GIS application development, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, Marine Debris."
+    "text": "Barrier to entry in collaborative workflow\n\nWe are now in the “Work From Anywhere” era, where we can work remotely with other colleagues and partners across the globe. As a result - of course - we must adjust the way we work, by staying connected to internet.  There are some jobs that can be done through web-based applications. The barrier to entry for these jobs are not too big, because most of us are used to working with computers through the Graphical User Interface (GUI). Meanwhile, as for students, lecturers and researchers, will often work with git, python, r, markdown, machine learning applications, etc - which mostly use the Command Line Interface (CLI) in the process.  To help with this adaptation and learning process, there are several applications with GUIs (e.g.: Visual Studio Code, RStudio, Jupyter Notebook), in which there is a terminal pane - for executing various custom commands. In addition, most people nowadays have a Google account. Thus, python, markdown and r (all at once) can be learned using Google Colab. With Google Colab, we can share notes and source code with our colleagues very easily. In addition, the notebooks resulted from the learning process will be automatically saved in Google Drive.\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "BACA.html",
@@ -56,24 +42,31 @@
     "text": "More settings and configuration for this theme, check the following resources: 1. Quarto documentation page (https://quarto.org/docs/websites/) 2. Robert Michell’s website (https://robertmitchellv.com/) and his repository (https://github.com/robertmitchellv/robertmitchellv.github.io)"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Rinny Rahmania",
+    "section": "",
+    "text": "About me\n\n\n Field of expertise\n\n\nRemote sensing application, blue carbon, marine and coastal resources management, coastal spatial planning, marine debris\n\n\n Education\n\n\n\n Doctorate: Montpellier University, France (2016)\n\n\n Graduate: IPB University, Indonesia (2005)\n\n\n Undergraduate: Haluoleo University, Indonesia (2001)\n\n\n\n Work Experience\n\n\n\n\nBRIN (The National Research and Innovation Agency), Indonesia | 2022 – Present\n\n\n\n\nI am a senior researcher at Ecology Research center - BRIN, Indonesia; and lead the Coastal Modelling research group.\n\n\n\n\n\nKKP (Ministry of Marine Affairs and Fisheries), Indonesia | 2006 – 2022\n\n\n\n\nI started my career as researcher at Marine Technology Research Center - an institution under the Ministry of Marine Affairs and Fisheries at that time.\n\n\n\n\n Accomplishments\n\n\nI have obtained number of research grant from various institutions, i.e.: from World Bank, AFD (France), APEC, and from various Indonesian government agencies. You may find publications resulted from these funding at my Researchgate page.\n\n\n Research interests\n\n\nRemote Sensing and GIS application development, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, Marine Debris."
+  },
+  {
+    "objectID": "blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
+    "href": "blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
+    "title": "The shift in Research and Learning workflow.",
+    "section": "",
+    "text": "The shift in Research and Learning workflow.\n\nIn today’s AI era, the workflow in the learning and research process has improved a lot. Previously, research activities tended to be more onsite, where the research team had to go for field observation, collect and store data to a portable storage device, process data and conduct analysis using stand-alone computer, before it could finally be disseminated. But now, a research group can work separately on different locations. The collected data can be stored and shared, so that it can be processed and analysed by other team members elsewhere. \nUnder this collaborative workflow, we probably will have to work more often with the command line (terminal/cmd, powershell, bash, etc.); especially during the authentication process to the network, uploading and downloading the data to be distributed, as well as when working with GIT (version control system). In addition, we will also work more often with the python programming language, considering the many applications to help with research data processing developed with the python language, notably: scikit and R - for statistics, markdown - for writing documentation, various apps for image processing and GIS, etc. \nBut don’t worry. Currently, all popular search engines (e.g.: google, or bing) already enhanced with AI features. Moreover, we can do the troubleshooting with gemini or copilot, or any other AI assistants. Thus, we will easily find commands that are ready to be copied and pasted into the terminal, or other tutorials and supporting references in various file formats.\nThere’s no doubt that the shift in this workflow, will accelerate and increase the efficiency of the learning and research process. Therefore, I recommend to undergraduate students (especially those studying science and technology) to accustomed yourself with this environment.\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\n\n\n\n\n\nBarrier to entry in collaborative workflow\n\n\n\n\n\n\n\n\n\n\n\nOct 12, 2025\n\n\nRinny Rahmania\n\n\n\n\n\n\n\nThe shift in Research and Learning workflow.\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2025\n\n\nRinny Rahmania\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "lessons/2018-12-east-la-r-users/index.html",
-    "href": "lessons/2018-12-east-la-r-users/index.html",
-    "title": "Interactive Dashboards with shiny",
+    "objectID": "lessons.html",
+    "href": "lessons.html",
+    "title": "Lessons",
     "section": "",
-    "text": "Full Screen"
-  },
-  {
-    "objectID": "projects/2020-04-covid19-dashboard/index.html",
-    "href": "projects/2020-04-covid19-dashboard/index.html",
-    "title": "LA County COVID-19 Dashboard",
-    "section": "",
-    "text": "Full Screen"
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

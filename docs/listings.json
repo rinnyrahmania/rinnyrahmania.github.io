@@ -1,22 +1,32 @@
 [
   {
     "listing": "/projects.html",
-    "items": [
-      "/projects/2020-04-covid19-dashboard/index.html"
-    ]
-  },
-  {
-    "listing": "/lessons.html",
     "items": []
   },
   {
-    "listing": "/blog/2025-10-10-first-post/first-post.html",
+    "listing": "/index.html",
+    "items": [
+      "/blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
+      "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html"
+    ]
+  },
+  {
+    "listing": "/blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
     "items": []
   },
   {
     "listing": "/blog.html",
     "items": [
-      "/blog/2025-10-10-first-post/first-post.html"
+      "/blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
+      "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html"
     ]
+  },
+  {
+    "listing": "/lessons.html",
+    "items": []
   }
 ]

@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Robert Mitchell">
-<meta name="dcterms.date" content="2020-04-02">
+<meta name="author" content="Rinny Rahmania">
+<meta name="dcterms.date" content="2025-10-12">
 
-<title>LA County COVID-19 Dashboard – Rinny Rahmania</title>
+<title>barrier-to-entry – Rinny Rahmania</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -44,9 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-6d1693bc59648c12b579535a39745dca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-bdc4f87e19ee5091b246e556999b59f5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-a4e3dc74e9eae4be38a00fc7d06b29d0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-bdc4f87e19ee5091b246e556999b59f5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-08ed12050d23021c2e386f1a66bc0215.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-68f738d480e489b26c53dfdbedf20431.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-08ed12050d23021c2e386f1a66bc0215.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -76,15 +78,73 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<meta name="twitter:title" content="LA County COVID-19 Dashboard – Rinny Rahmania">
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-author','listing-description','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta name="twitter:title" content="– Rinny Rahmania">
 <meta name="twitter:description" content="Rinny Rahmania’s personal website">
 <meta name="twitter:creator" content="@rinnyrahmania">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -297,32 +357,28 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">LA County COVID-19 Dashboard</h1>
+    <div class="quarto-title column-page-left">
+      
                                 <div class="quarto-categories">
-                <div class="quarto-category">Project</div>
-                <div class="quarto-category">Flexdashboard</div>
-                <div class="quarto-category">Dashboards</div>
-                <div class="quarto-category">Interactive</div>
-                <div class="quarto-category">Covid19</div>
+                <div class="quarto-category">Tips</div>
               </div>
                   </div>
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Robert Mitchell </p>
+               <p>Rinny Rahmania </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 2, 2020</p>
+        <p class="date">October 12, 2025</p>
       </div>
     </div>
     
@@ -330,28 +386,37 @@ ul.task-list li input[type="checkbox"] {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
 
 
-<div class="iframe-container">
-<iframe class="iframe-responsive" scrolling="no" src="projects-covid-19-lac.html">
-</iframe>
-</div>
+<section id="barrier-to-entry-in-collaborative-workflow" class="level1">
+<h1>Barrier to entry in collaborative workflow</h1>
+<p>
+</p><p>We are now in the “Work From Anywhere” era, where we can work remotely with other colleagues and partners across the globe. As a result - of course - we must adjust the way we work, by staying connected to internet. <br> There are some jobs that can be done through web-based applications. The barrier to entry for these jobs are not too big, because most of us are used to working with computers through the Graphical User Interface (GUI). Meanwhile, as for students, lecturers and researchers, will often work with <a href="https://git-scm.com/">git</a>, <a href="https://www.python.org/">python</a>, <a href="https://cran.r-project.org/">r</a>, <a href="https://daringfireball.net/projects/markdown/">markdown</a>, machine learning applications, etc - which mostly use the Command Line Interface (CLI) in the process. <br> To help with this adaptation and learning process, there are several applications with GUIs (e.g.: <a href="https://code.visualstudio.com/">Visual Studio Code</a>, <a href="https://posit.co/download/rstudio-desktop/">RStudio</a>, <a href="https://jupyter.org/">Jupyter Notebook</a>), in which there is a terminal pane - for executing various custom commands. In addition, most people nowadays have a Google account. Thus, python, markdown and r (all at once) can be learned using <a href="https://colab.research.google.com/">Google Colab</a>. With Google Colab, we can share notes and source code with our colleagues very easily. In addition, the notebooks resulted from the learning process will be automatically saved in <a href="https://drive.google.com/">Google Drive</a>.</p>
 <p><br></p>
-<p><a href="../../projects/2020-04-covid19-dashboard/projects-covid-19-lac.html" class="btn btn-secondary">Full Screen</a></p>
+<p></p>
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -769,7 +834,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><i class="fa-solid fa-copyright" aria-label="copyright"></i> 2025, Rinny Rahmania</p>
+<p><i class="fa-solid fa-copyright" aria-label="copyright"></i> 2025, Rinny Rahmania | All rights reserved</p>
 </div>   
     <div class="nav-footer-center">
 <p>Base theme from Robert Mitchell <br> Made with <a href="https://quarto.org/">Quarto</a></p>
