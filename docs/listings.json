@@ -1,18 +1,26 @@
 [
   {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/2025-05-30-mangrove-carbon-stock/mangrove-carbon-stock.html"
+    ]
+  },
+  {
     "listing": "/projects.html",
     "items": []
   },
   {
-    "listing": "/lessons/2025-10-12-ensemble-learning/ensemble-learning.html",
-    "items": []
+    "listing": "/index.html",
+    "items": [
+      "/blog/2025-10-13-ensemble-learning/ensemble-learning.html",
+      "/blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
+      "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
+      "/publications/2025-05-30-mangrove-carbon-stock/mangrove-carbon-stock.html"
+    ]
   },
   {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
-      "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html"
-    ]
+    "listing": "/blog/2025-10-13-ensemble-learning/ensemble-learning.html",
+    "items": []
   },
   {
     "listing": "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
@@ -23,11 +31,11 @@
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
+      "/blog/2025-10-13-ensemble-learning/ensemble-learning.html",
       "/blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
-      "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
-      "/lessons/2025-10-12-ensemble-learning/ensemble-learning.html"
+      "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html"
     ]
   },
   {

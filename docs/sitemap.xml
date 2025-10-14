@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://rinnyrahmania.github.io/publications.html</loc>
+    <lastmod>2025-10-14T02:16:02.091Z</lastmod>
+  </url>
+  <url>
     <loc>https://rinnyrahmania.github.io/projects.html</loc>
     <lastmod>2025-10-08T10:40:15.115Z</lastmod>
   </url>
   <url>
-    <loc>https://rinnyrahmania.github.io/lessons/2025-10-12-ensemble-learning/ensemble-learning.html</loc>
-    <lastmod>2025-10-13T04:15:43.815Z</lastmod>
+    <loc>https://rinnyrahmania.github.io/index.html</loc>
+    <lastmod>2025-10-14T02:25:28.445Z</lastmod>
   </url>
   <url>
-    <loc>https://rinnyrahmania.github.io/blog.html</loc>
-    <lastmod>2025-10-07T12:22:12.487Z</lastmod>
+    <loc>https://rinnyrahmania.github.io/blog/2025-10-13-ensemble-learning/ensemble-learning.html</loc>
+    <lastmod>2025-10-13T04:15:43.815Z</lastmod>
   </url>
   <url>
     <loc>https://rinnyrahmania.github.io/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html</loc>
@@ -29,11 +33,15 @@
     <lastmod>2025-10-12T16:50:54.271Z</lastmod>
   </url>
   <url>
-    <loc>https://rinnyrahmania.github.io/index.html</loc>
-    <lastmod>2025-10-12T15:55:09.659Z</lastmod>
+    <loc>https://rinnyrahmania.github.io/blog.html</loc>
+    <lastmod>2025-10-07T12:22:12.487Z</lastmod>
   </url>
   <url>
     <loc>https://rinnyrahmania.github.io/lessons.html</loc>
     <lastmod>2025-10-12T16:38:59.672Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rinnyrahmania.github.io/publications/2025-05-30-mangrove-carbon-stock/mangrove-carbon-stock.html</loc>
+    <lastmod>2025-10-14T08:07:05.561Z</lastmod>
   </url>
 </urlset>
