@@ -139,11 +139,8 @@ window.Quarto = {
 </script>
 
 <meta name="twitter:title" content="– Rinny Rahmania">
-<meta name="twitter:image" content="https://rinnyrahmania.github.io/projects/mangrove-saleh-bay/images/saleh-bay.png">
 <meta name="twitter:creator" content="@rinnyrahmania">
-<meta name="twitter:image-height" content="2481">
-<meta name="twitter:image-width" content="4266">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -404,7 +401,25 @@ window.Quarto = {
 <section id="area-of-interest" class="level2">
 <h2 class="anchored" data-anchor-id="area-of-interest">Area of interest</h2>
 <div>
-<p><img src="images/saleh-bay.png" class="img-fluid"></p>
+<!-- Load Leaflet CSS and JS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- Map container -->
+<div id="map" style="height: 500px;"></div>
+
+<!-- Leaflet map script -->
+<script>
+  var map = L.map('map').setView([-8.5667, 117.95], 9); // Centered on Saleh Bay, Sumbawa, Indonesia
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  L.marker([-8.5667, 117.95]).addTo(map)
+    .bindPopup('Saleh bay')
+    .openPopup();
+</script>
 </div>
 </section>
 <section id="project-summary" class="level2">
