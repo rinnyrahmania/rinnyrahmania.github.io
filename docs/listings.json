@@ -7,27 +7,12 @@
   },
   {
     "listing": "/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
     "items": [
-      "/blog/2025-10-13-ensemble-learning/ensemble-learning.html",
-      "/blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
-      "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
-      "/publications/2025-05-30-mangrove-carbon-stock/mangrove-carbon-stock.html"
+      "/projects/mangrove-saleh-bay/mangrove-saleh-bay.html"
     ]
   },
   {
-    "listing": "/blog/2025-10-13-ensemble-learning/ensemble-learning.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
+    "listing": "/lessons.html",
     "items": []
   },
   {
@@ -39,7 +24,29 @@
     ]
   },
   {
-    "listing": "/lessons.html",
+    "listing": "/blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/2025-10-13-ensemble-learning/ensemble-learning.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/2025-10-13-ensemble-learning/ensemble-learning.html",
+      "/blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
+      "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
+      "/publications/2025-05-30-mangrove-carbon-stock/mangrove-carbon-stock.html",
+      "/projects/mangrove-saleh-bay/mangrove-saleh-bay.html"
+    ]
+  },
+  {
+    "listing": "/projects/mangrove-saleh-bay/mangrove-saleh-bay.html",
     "items": []
   }
 ]

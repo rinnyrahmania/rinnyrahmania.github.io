@@ -4,21 +4,49 @@
     "href": "publications.html",
     "title": "Summary of publications",
     "section": "",
-    "text": "Summary of publications\n\n\n\n\n\n\n\n\n\n\n\nMangrove Carbon Stock Monitoring on Saleh Bay\n\n\n\n\n\n\n\n\n\n\n\nRaihana Y. Azzahra, Yulius, Syamsul B. Agus, Farel A. Aditama, Taslim Arifin, Aprizon Putra, Rinny Rahmania, Aida Heriati, Joko Prihantono, Dini Purbani, Hadiwijaya L. Salim, Muhammad Ramdhan, Ary Wahyono, Sadad, Arya Ningsih, Abdul Asyiri\n\n\n\n\n\nNo matching items"
+    "text": "Summary of publications\n\n\n\n\n\n\n\n\n\n\n\nAdvancing Mangrove Carbon Stock Monitoring With Drone and Pleiades Imagery on Gilibakau Island-Saleh Bay, Indonesia\n\n\n\n\n\n\n\n\n\n\n\nRaihana Y. Azzahra, Yulius, Syamsul B. Agus, Farel A. Aditama, Taslim Arifin, Aprizon Putra, Rinny Rahmania, Aida Heriati, Joko Prihantono, Dini Purbani, Hadiwijaya L. Salim, Muhammad Ramdhan, Ary Wahyono, Sadad, Arya Ningsih, Abdul Asyiri\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Projects\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Projects\n\n\n\n\n\n\n\n\n\n\n\nTechnology development for mangrove carbon stock monitoring in Sumbawa Regency - Indonesia (2025 - 2027)\n\n\n\n\n\n\n\n\n\n\n\nOct 15, 2025\n\n\nRinny Rahmania\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "lessons.html",
+    "href": "lessons.html",
+    "title": "Lessons",
+    "section": "",
+    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog\n\n\n\n\n\n\n\n\n\n\n\nBrief introduction to Ensemble Learning\n\n\n\n\n\n\n\n\n\n\n\nOct 13, 2025\n\n\nRinny Rahmania\n\n\n\n\n\n\n\nBarrier to entry in collaborative workflow\n\n\n\n\n\n\n\n\n\n\n\nOct 12, 2025\n\n\nRinny Rahmania\n\n\n\n\n\n\n\nThe shift in Research and Learning workflow.\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2025\n\n\nRinny Rahmania\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
+    "href": "blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
+    "title": "Barrier to entry in collaborative workflow",
+    "section": "",
+    "text": "Barrier to entry in collaborative workflow\n\nWe are now in the “Work From Anywhere” era, where we can work remotely with other colleagues and partners across the globe. As a result - of course - we must adjust the way we work, by staying connected to internet.  There are some jobs that can be done through web-based applications. The barrier to entry for these jobs are not too big, because most of us are used to working with computers through the Graphical User Interface (GUI). Meanwhile, as for students, lecturers and researchers, will often work with git, python, r, markdown, machine learning applications, etc - which mostly use the Command Line Interface (CLI) in the process.  To help with this adaptation and learning process, there are several applications with GUIs (e.g.: Visual Studio Code, RStudio, Jupyter Notebook), in which there is a terminal pane - for executing various custom commands. In addition, most people nowadays have a Google account. Thus, python, markdown and r (all at once) can be learned using Google Colab. With Google Colab, we can share notes and source code with our colleagues very easily. In addition, the notebooks resulted from the learning process will be automatically saved in Google Drive.\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "Rinny Rahmania",
     "section": "",
-    "text": "Brief introduction\n\nI’m from Indonesia - the largest archipelagics state in equator, comprised of thousands of islands and a vast coastal areas. There are many emerging issues that occurred in marine and coastal areas here, remain unsolved. And these challenges offer opportunities to develop some useful tools or even create innovations that can be tested here, then applied in other coastal areas across the globe.\n\n\n\nStill curious? click ‘About’ above or this button here: Tell me more\n\n\n\n\n\n\n\n\nBlog\nLatest from the blog\n\n\n\n\nBrief introduction to Ensemble Learning\n\n Oct 13, 2025\nNo matching items\n\n\n\nRead more\n\n\n\n\nProjects\nLatest research project\n\n\n\nNo matching items\n\n\n\nRead more\n\n\n\n\nPublications\nRecent publications\n\n\n\n\nMangrove Carbon Stock Monitoring on Saleh Bay\n\n \nNo matching items\n\n\n\nRead more\n\n\n\n\n\n\nI’m currently working at\nBRIN, Indonesia\nI lead the Research Group for Coastal Ecological Modelling in Indonesia, who focusing our research field on Remote Sensing, GIS, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, and Marine Debris."
+    "text": "About me\n\n\n Field of expertise\n\n\nRemote sensing application, blue carbon, marine and coastal resources management, coastal spatial planning, marine debris\n\n\n Education\n\n\n\n Doctorate: Montpellier University, France (2016)\n\n\n Graduate: IPB University, Indonesia (2005)\n\n\n Undergraduate: Haluoleo University, Indonesia (2001)\n\n\n\n Work Experience\n\n\n\n\nBRIN (The National Research and Innovation Agency), Indonesia | 2022 – Present\n\n\n\n\nI am a senior researcher at Ecology Research center - BRIN, Indonesia; and lead the Coastal Modelling research group.\n\n\n\n\n\nKKP (Ministry of Marine Affairs and Fisheries), Indonesia | 2006 – 2022\n\n\n\n\nI started my career as researcher at Marine Technology Research Center - an institution under the Ministry of Marine Affairs and Fisheries at that time.\n\n\n\n\n Accomplishments\n\n\nI have obtained number of research grant from various institutions, i.e.: from World Bank, AFD (France), APEC, and from various Indonesian government agencies. You may find publications resulted from these funding at my Researchgate page.\n\n\n Research interests\n\n\nRemote Sensing and GIS application development, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, Marine Debris."
+  },
+  {
+    "objectID": "blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
+    "href": "blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
+    "title": "The shift in Research and Learning workflow.",
+    "section": "",
+    "text": "The shift in Research and Learning workflow.\n\nIn today’s AI era, the workflow in the learning and research process has improved a lot. Previously, research activities tended to be more onsite, where the research team had to go for field observation, collect and store data to a portable storage device, process data and conduct analysis using stand-alone computer, before it could finally be disseminated. But now, a research group can work separately on different locations. The collected data can be stored and shared, so that it can be processed and analysed by other team members elsewhere. \nUnder this collaborative workflow, we probably will have to work more often with the command line (terminal/cmd, powershell, bash, etc.); especially during the authentication process to the network, uploading and downloading the data to be distributed, as well as when working with GIT (version control system). In addition, we will also work more often with the python programming language, considering the many applications to help with research data processing developed with the python language, notably: scikit and R - for statistics, markdown - for writing documentation, various apps for image processing and GIS, etc. \nBut don’t worry. Currently, all popular search engines (e.g.: google, or bing) already enhanced with AI features. Moreover, we can do the troubleshooting with gemini or copilot, or any other AI assistants. Thus, we will easily find commands that are ready to be copied and pasted into the terminal, or other tutorials and supporting references in various file formats.\nThere’s no doubt that the shift in this workflow, will accelerate and increase the efficiency of the learning and research process. Therefore, I recommend to undergraduate students (especially those studying science and technology) to accustomed yourself with this environment.\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/2025-10-13-ensemble-learning/ensemble-learning.html",
@@ -63,59 +91,24 @@
     "text": "[1] L. Breiman, “Bagging Predictors,” Machine Learning, vol. 24, no. 2, pp. 123-140, 1996.\n[2] D. H. Wolpert, “Stacked Generalization,” Neural Networks, vol. 5, no. 2, pp. 241-259, 1992.\n[3] Y. Freund and R. E. Schapire, “A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting,” J. Comput. Syst. Sci., vol. 55, no. 1, pp. 119-139, 1997.\n[4] J. H. Friedman, “Greedy Function Approximation: A Gradient Boosting Machine,” Ann. Stat., vol. 29, no. 5, pp. 1189–1232, 2001.\n[5] T. Chen and C. Guestrin, “XGBoost: A Scalable Tree Boosting System,” in Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2016."
   },
   {
-    "objectID": "blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
-    "href": "blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
-    "title": "The shift in Research and Learning workflow.",
-    "section": "",
-    "text": "The shift in Research and Learning workflow.\n\nIn today’s AI era, the workflow in the learning and research process has improved a lot. Previously, research activities tended to be more onsite, where the research team had to go for field observation, collect and store data to a portable storage device, process data and conduct analysis using stand-alone computer, before it could finally be disseminated. But now, a research group can work separately on different locations. The collected data can be stored and shared, so that it can be processed and analysed by other team members elsewhere. \nUnder this collaborative workflow, we probably will have to work more often with the command line (terminal/cmd, powershell, bash, etc.); especially during the authentication process to the network, uploading and downloading the data to be distributed, as well as when working with GIT (version control system). In addition, we will also work more often with the python programming language, considering the many applications to help with research data processing developed with the python language, notably: scikit and R - for statistics, markdown - for writing documentation, various apps for image processing and GIS, etc. \nBut don’t worry. Currently, all popular search engines (e.g.: google, or bing) already enhanced with AI features. Moreover, we can do the troubleshooting with gemini or copilot, or any other AI assistants. Thus, we will easily find commands that are ready to be copied and pasted into the terminal, or other tutorials and supporting references in various file formats.\nThere’s no doubt that the shift in this workflow, will accelerate and increase the efficiency of the learning and research process. Therefore, I recommend to undergraduate students (especially those studying science and technology) to accustomed yourself with this environment.\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Rinny Rahmania",
     "section": "",
-    "text": "About me\n\n\n Field of expertise\n\n\nRemote sensing application, blue carbon, marine and coastal resources management, coastal spatial planning, marine debris\n\n\n Education\n\n\n\n Doctorate: Montpellier University, France (2016)\n\n\n Graduate: IPB University, Indonesia (2005)\n\n\n Undergraduate: Haluoleo University, Indonesia (2001)\n\n\n\n Work Experience\n\n\n\n\nBRIN (The National Research and Innovation Agency), Indonesia | 2022 – Present\n\n\n\n\nI am a senior researcher at Ecology Research center - BRIN, Indonesia; and lead the Coastal Modelling research group.\n\n\n\n\n\nKKP (Ministry of Marine Affairs and Fisheries), Indonesia | 2006 – 2022\n\n\n\n\nI started my career as researcher at Marine Technology Research Center - an institution under the Ministry of Marine Affairs and Fisheries at that time.\n\n\n\n\n Accomplishments\n\n\nI have obtained number of research grant from various institutions, i.e.: from World Bank, AFD (France), APEC, and from various Indonesian government agencies. You may find publications resulted from these funding at my Researchgate page.\n\n\n Research interests\n\n\nRemote Sensing and GIS application development, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, Marine Debris."
+    "text": "Brief introduction\n\nI’m from Indonesia - the largest archipelagics state in equator, comprised of thousands of islands and a vast coastal areas. There are many emerging issues that occurred in marine and coastal areas here, remain unsolved. And these challenges offer opportunities to develop some useful tools or even create innovations that can be tested here, then applied in other coastal areas across the globe.\n\n\n\nStill curious? click ‘About’ above or this button here: Tell me more\n\n\n\n\n\n\n\n\nBlog\nLatest from the blog\n\n\n\n\nBrief introduction to Ensemble Learning\n\n Oct 13, 2025\nNo matching items\n\n\n\nRead more\n\n\n\n\nProjects\nLatest research project\n\n\n\n\nTechnology development for mangrove carbon stock monitoring in Sumbawa Regency - Indonesia (2025 - 2027)\n\n Oct 15, 2025\nNo matching items\n\n\n\nRead more\n\n\n\n\nPublications\nRecent publications\n\n\n\n\nAdvancing Mangrove Carbon Stock Monitoring With Drone and Pleiades Imagery on Gilibakau Island-Saleh Bay, Indonesia\n\n \nNo matching items\n\n\n\nRead more\n\n\n\n\n\n\nI’m currently working at\nBRIN, Indonesia\nI lead the Research Group for Coastal Ecological Modelling in Indonesia, who focusing our research field on Remote Sensing, GIS, Blue Carbon, Coastal Ecology, Coastal Spatial Planning, Sustainable Coastal Cities, and Marine Debris."
   },
   {
-    "objectID": "BACA.html",
-    "href": "BACA.html",
-    "title": "This is my personal page that the themes customized from Robert Michel’s",
+    "objectID": "projects/mangrove-saleh-bay/mangrove-saleh-bay.html",
+    "href": "projects/mangrove-saleh-bay/mangrove-saleh-bay.html",
+    "title": "Technology development for mangrove carbon stock monitoring in Sumbawa Regency - Indonesia (2025 - 2027)",
     "section": "",
-    "text": "I’ve been observing many examples before making my own github page. By far, Michell’s theme suits my purpose. Highly appreciate for showcasing this great work.\n\n\nThis page has three main sections:\n\nblog\nprojects\nlesson\n\n\nEach has it’s own landing page and _metadata.yml file. Additionally the ejs directory contains a small custom listing template for the main landing page.\nI agree with Michell’s idea that some older blog posts should not be rendered; rather, they’re sort of put together with images and text.\nLessons and projects use an &lt;iframe&gt; to source the html file in with an option to make it full screen, which I thought was a neat idea.\n\n\n\n\nMore settings and configuration for this theme, check the following resources: 1. Quarto documentation page (https://quarto.org/docs/websites/) 2. Robert Michell’s website (https://robertmitchellv.com/) and his repository (https://github.com/robertmitchellv/robertmitchellv.github.io)"
+    "text": "Saleh Bay area is a semi-enclosed waters; and part of the Saleh-Moyo-Tambora Biosphere Reserve (Samota) which has a total area + 720,000 Ha, comprised of the Core Zone (+ 110,000 Ha), Buffer Zone (+ 140,000 Ha) and Transition Zone (+ 470,000 Ha). Samota Biosphere Reserve is an important habitat for various flora and fauna that found in the forests surround Mount Tambora and Moyo Island. In the coastal water of Saleh bay, we can found whale sharks (KLHK, 2019), seagrass meadows, and coral reef ecosystems (Edrus et.al., 2017). Meanwhile, mangrove ecosystems are widely spread along the Sumbawa coastline and on dozens of small islands within the bay.\nThe government of Sumbawa recognizes the importance of this blue carbon ecosystem in supporting low-carbon development, and to support SDGs achievement there. In fact, there is mangroves restoration program and silvofishery project that implemented since 2021. To ensure that previous initiatives can be sustained, the Sumbawa government is collaborating with BRIN to increase the natural resources management capacity; including the application development for mangrove blue carbon stock monitoring."
   },
   {
-    "objectID": "BACA.html#organization",
-    "href": "BACA.html#organization",
-    "title": "This is my personal page that the themes customized from Robert Michel’s",
+    "objectID": "projects/mangrove-saleh-bay/mangrove-saleh-bay.html#project-summary",
+    "href": "projects/mangrove-saleh-bay/mangrove-saleh-bay.html#project-summary",
+    "title": "Technology development for mangrove carbon stock monitoring in Sumbawa Regency - Indonesia (2025 - 2027)",
     "section": "",
-    "text": "This page has three main sections:\n\nblog\nprojects\nlesson\n\n\nEach has it’s own landing page and _metadata.yml file. Additionally the ejs directory contains a small custom listing template for the main landing page.\nI agree with Michell’s idea that some older blog posts should not be rendered; rather, they’re sort of put together with images and text.\nLessons and projects use an &lt;iframe&gt; to source the html file in with an option to make it full screen, which I thought was a neat idea."
-  },
-  {
-    "objectID": "BACA.html#theming",
-    "href": "BACA.html#theming",
-    "title": "This is my personal page that the themes customized from Robert Michel’s",
-    "section": "",
-    "text": "More settings and configuration for this theme, check the following resources: 1. Quarto documentation page (https://quarto.org/docs/websites/) 2. Robert Michell’s website (https://robertmitchellv.com/) and his repository (https://github.com/robertmitchellv/robertmitchellv.github.io)"
-  },
-  {
-    "objectID": "blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
-    "href": "blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
-    "title": "Barrier to entry in collaborative workflow",
-    "section": "",
-    "text": "Barrier to entry in collaborative workflow\n\nWe are now in the “Work From Anywhere” era, where we can work remotely with other colleagues and partners across the globe. As a result - of course - we must adjust the way we work, by staying connected to internet.  There are some jobs that can be done through web-based applications. The barrier to entry for these jobs are not too big, because most of us are used to working with computers through the Graphical User Interface (GUI). Meanwhile, as for students, lecturers and researchers, will often work with git, python, r, markdown, machine learning applications, etc - which mostly use the Command Line Interface (CLI) in the process.  To help with this adaptation and learning process, there are several applications with GUIs (e.g.: Visual Studio Code, RStudio, Jupyter Notebook), in which there is a terminal pane - for executing various custom commands. In addition, most people nowadays have a Google account. Thus, python, markdown and r (all at once) can be learned using Google Colab. With Google Colab, we can share notes and source code with our colleagues very easily. In addition, the notebooks resulted from the learning process will be automatically saved in Google Drive.\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Blog\n\n\n\n\n\n\n\n\n\n\n\nBrief introduction to Ensemble Learning\n\n\n\n\n\n\n\n\n\n\n\nOct 13, 2025\n\n\nRinny Rahmania\n\n\n\n\n\n\n\nBarrier to entry in collaborative workflow\n\n\n\n\n\n\n\n\n\n\n\nOct 12, 2025\n\n\nRinny Rahmania\n\n\n\n\n\n\n\nThe shift in Research and Learning workflow.\n\n\n\n\n\n\n\n\n\n\n\nOct 10, 2025\n\n\nRinny Rahmania\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lessons.html",
-    "href": "lessons.html",
-    "title": "Lessons",
-    "section": "",
-    "text": "Lessons\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Saleh Bay area is a semi-enclosed waters; and part of the Saleh-Moyo-Tambora Biosphere Reserve (Samota) which has a total area + 720,000 Ha, comprised of the Core Zone (+ 110,000 Ha), Buffer Zone (+ 140,000 Ha) and Transition Zone (+ 470,000 Ha). Samota Biosphere Reserve is an important habitat for various flora and fauna that found in the forests surround Mount Tambora and Moyo Island. In the coastal water of Saleh bay, we can found whale sharks (KLHK, 2019), seagrass meadows, and coral reef ecosystems (Edrus et.al., 2017). Meanwhile, mangrove ecosystems are widely spread along the Sumbawa coastline and on dozens of small islands within the bay.\nThe government of Sumbawa recognizes the importance of this blue carbon ecosystem in supporting low-carbon development, and to support SDGs achievement there. In fact, there is mangroves restoration program and silvofishery project that implemented since 2021. To ensure that previous initiatives can be sustained, the Sumbawa government is collaborating with BRIN to increase the natural resources management capacity; including the application development for mangrove blue carbon stock monitoring."
   }
 ]
