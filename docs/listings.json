@@ -2,7 +2,9 @@
   {
     "listing": "/publications.html",
     "items": [
-      "/publications/2025-05-30-mangrove-carbon-stock/mangrove-carbon-stock.html"
+      "/publications/2025-01-30-mariculture/mariculture.html",
+      "/publications/2025-05-30-mangrove-carbon-stock/mangrove-carbon-stock.html",
+      "/publications/2025-09-30-pollutant-distribution/pollutant-distribution.html"
     ]
   },
   {
@@ -41,7 +43,9 @@
       "/blog/2025-10-13-ensemble-learning/ensemble-learning.html",
       "/blog/2025-10-12-barrier-to-entry/barrier-to-entry.html",
       "/blog/2025-10-10-shift-of-workflow/shift-of-workflow.html",
+      "/publications/2025-01-30-mariculture/mariculture.html",
       "/publications/2025-05-30-mangrove-carbon-stock/mangrove-carbon-stock.html",
+      "/publications/2025-09-30-pollutant-distribution/pollutant-distribution.html",
       "/projects/mangrove-saleh-bay/mangrove-saleh-bay.html"
     ]
   },
