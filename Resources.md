@@ -7,5 +7,6 @@ I would like to share some useful resouces concerning open source applications, 
 5. [Google Earth Engine](https://awesome.geemap.org/)
 6. [WebODM](https://github.com/OpenDroneMap/WebODM)
 7. [Open Geospatial Solutions](https://opengeos.org/), and [repository](https://github.com/opengeos)
+8. [Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
 
 **Note:** These links will undoubtedly continue to grow over time.
