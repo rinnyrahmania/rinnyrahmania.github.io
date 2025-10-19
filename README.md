@@ -1,4 +1,6 @@
-# How I built my personal page
+# Greetings...!
+
+## How I built my personal page
 
 I would like to share some of my research activities through git; therefore I believe a github page can be used as a landing page for this purpose. I've been observing many examples before making my own github page. By far, [Michell's theme](https://robertmitchellv.com/) suits my need. Highly appreciate to Robert Michell for sharing his great works. This landing page was built using [Quarto](https://quarto.org) markdown, and written in [RStudio IDE](https://posit.co/download/rstudio-desktop/). 
 <br>
